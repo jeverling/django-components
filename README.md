@@ -429,7 +429,7 @@ If you are using autodiscovery, keep a few points in mind:
 - Components inside the auto-imported files still need to be registered with `@component.register()`
 - Auto-imported component files must be valid Python modules, they must use suffix `.py`, and module name should follow [PEP-8](https://peps.python.org/pep-0008/#package-and-module-names).
 
-Autodiscovery can be disabled via in the [settings](#disable-autodiscovery).
+Autodiscovery can be disabled in the [settings](#disable-autodiscovery).
 
 ## Using slots in templates
 
